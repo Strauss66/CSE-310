@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Paintings</a></li>
+                <li><a href="#">Abstract Art</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Drawings</a></li>
+                <li><a href="#">Sculpture</a></li>
+                <li><a href="#">Mixed Media</a></li>
+                <li><a href="#">Prints</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Art Advisory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="featured-exhibition">
+            <h2>Love Letters to the Planet</h2>
+            <p>Explore the exhibition and discover new art every week.</p>
+            <a href="#">Shop Now</a>
+        </section>
+        <section id="new-this-week">
+            <h2>New This Week</h2>
+            <ul>
+                <li><a href="#">Discover New Art Our Curators Love Every Week</a></li>
+                <li><a href="#">Second Acts by Kate Arends</a></li>
+                <li><a href="#">24 Artists to Collect in 2024</a></li>
+            </ul>
+        </section>
+        <section id="categories">
+            <h2>Shop by Category</h2>
+            <ul>
+                <li><a href="#">Oil Paintings</a></li>
+                <li><a href="#">Landscapes</a></li>
+                <li><a href="#">Paintings Under $500</a></li>
+                <li><a href="#">Large Works</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Sculpture</a></li>
+                <li><a href="#">Fine Art Prints</a></li>
+                <li><a href="#">Mixed Media</a></li>
+                <li><a href="#">Drawings</a></li>
+            </ul>
+        </section>
+    </main>
+    <div id="gallery">
+        <!-- Images will be inserted here -->
+        <img src="images/tree_art.jpg" alt="Image of a tree" width="300" height="200">
+        <img src="images/classic_art.jpg" alt="Image of a classic painting" width="300" height="200">
+        <img src="images/lights_art.jpg" alt="Art of lights in a wall" width="300" height="200">
+    </div>
+    <div id="lightbox" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="lightbox-image">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
